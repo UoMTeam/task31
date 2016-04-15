@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#total {
+    width: 50%;
+    margin: auto;
+    padding: 100px;
+    border: 1px solid red;
+    text-align: center;
+    position: relative;
+}
+#company{
+    position: absolute;
+    border: 1px solid #4571cb;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+#select{
+    position: absolute;
+    border: 1px solid #4571cb;
+    margin-top: 20px;
+    margin-left: 280px;
+}
+#select1{
+    margin-right: 30px;
+}
