@@ -4,24 +4,46 @@ body {
 }
 
 #total {
-    width: 50%;
+    width: 500px;
     margin: auto;
     padding: 100px;
-    border: 1px solid red;
     text-align: center;
-    position: relative;
+    vertical-align: middle;
 }
-#company{
-    position: absolute;
+#topdiv{
+    display: inline-block;
+    width: auto;
+}
+#buttomdiv{
+    margin-left: 35px;
     margin-top: 20px;
-    margin-left: 250px;
-    visibility: hidden;
+    position: relative;
+
 }
 #select{
     position: absolute;
-    margin-top: 20px;
-    margin-left: 280px;
+    left:140px;
+    top: 10px;
+
 }
-#select1{
+#company{
+    left:140px;
+    top: 10px;
+    position: absolute;
+    visibility: hidden;
+
+}
+
+#select1,#select2{
     margin-right: 10px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border-radius: 4px;
+}
+#content{
+    border: 0.5px solid #a8a8a8;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
 }
