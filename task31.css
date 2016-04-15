@@ -13,16 +13,15 @@ body {
 }
 #company{
     position: absolute;
-    border: 1px solid #4571cb;
     margin-top: 20px;
     margin-left: 250px;
+    visibility: hidden;
 }
 #select{
     position: absolute;
-    border: 1px solid #4571cb;
     margin-top: 20px;
     margin-left: 280px;
 }
 #select1{
-    margin-right: 30px;
+    margin-right: 10px;
 }
